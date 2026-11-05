@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="yuji.css">
+    <div id="themeStyle"></div>
+</head>
+<body>
+    <header>
+        <nav class="navbar container">
+            <a href="index.html" class="logo">My Portfolio</a>
+            <button class="menu" id="menuToggle"></button>
+            <ul class="navlinks" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="others.html">Others</a></li>
+                <li><button id="themeBtn" onclick="toggleTheme()">🌙</button></li>
+            </ul>
+        </nav>
+        </header>
+        <section class="hero container" id="home">
+            <div class="hero-text">
+                <p class="hello">Hello, I'm</p>
+                <h1>Marian Lontoc</h1>
+                <h2>BSIT Student</h2>
+                <p>
+                    I am an Information Technology student
+                    who is interested in technology,
+                    web development, and learning new skills.
+                    I am willing to improve my knowledge
+                    and gain more experience.
+                </p>
+            </div>
+            <div class="hero-photo">
+                <img src="SNOW_20260807_203524_156.jpg" alt="My Profile Picture">
+            </div>
+        </section>
+
+        <section class="section container" id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-card">
+                <h3>Personal Information</h3>
+                <p><strong>Full Name:</strong>Marian R. Lontoc</p>
+                <p><strong>Age:</strong>19 Years old</p>
+                <p><strong>Address:</strong>Brgy.Canda Sariaya Quezon</p>
+                <p><strong>Course:</strong> BS Information Technology</p>
+            </div>
+        </section>
+
+    <footer id="contact" class="footer">
+        <h2>Contact Me</h2>
+        <p>Email: marianlontoc@gmail.com</p>
+        <p>Facebook: Marian Lontoc</p>
+        <p>Contact Number: 092345678</p>
+        <p>All Rights Reserved.</p>
+    </footer>
+
+    <button class="back-to-top" id="backToTop">↑</button>
+    <script src="yuji.js"></script>
+
+</body>
+</html>
